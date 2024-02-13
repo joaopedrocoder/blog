@@ -1,0 +1,15 @@
+.menu-bar-container {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+
+  ul {
+    display: flex;
+    gap: 20px;
+    
+    a {
+      color: white;
+      font-weight: bold;
+    }
+  }
+}
