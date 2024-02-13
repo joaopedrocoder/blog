@@ -1,0 +1,20 @@
+.small-card-container {
+  width: 700px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 2px solid white;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  
+  img {
+    width: 100%;
+    max-width: 160px;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+  
+}
