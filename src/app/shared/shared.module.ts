@@ -10,12 +10,12 @@ import { SmallCardComponent } from './components/small-card/small-card.component
   declarations: [
     TitleComponent,
     BigCardComponent,
-    SmallCardComponent
+    SmallCardComponent,
   ],
   exports: [ 
     TitleComponent, 
     BigCardComponent, 
-    SmallCardComponent
+    SmallCardComponent,
   ],
   imports: [
     CommonModule
