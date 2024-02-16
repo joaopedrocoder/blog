@@ -1,8 +1,8 @@
 <div class="small-card-container">
-  <a href="#">
-    <img [src]="card.urlImg" alt="">
+  <a [routerLink]="['content', card?.id]">
+    <img [src]="card?.imgUrl" alt="">
   </a>
-  <a href="#">
-    <h1>{{card.title}}</h1>
+  <a [routerLink]="['content', card?.id]">
+    <h1>{{card?.title}}</h1>
   </a>
 </div>

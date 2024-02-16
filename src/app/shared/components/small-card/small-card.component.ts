@@ -7,9 +7,5 @@ import { Card } from '../../models/card.model';
   styleUrl: './small-card.component.scss'
 })
 export class SmallCardComponent {
-  @Input() card: Card = {
-    urlImg: '',
-    title: '',
-    description: ''
-  }
+  @Input() card: Card | undefined
 }

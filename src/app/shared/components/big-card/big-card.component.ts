@@ -8,8 +8,9 @@ import { Card } from '../../models/card.model';
 })
 export class BigCardComponent {
   @Input() card: Card = {
-    urlImg: '',
+    id: 0,
+    imgUrl: '',
     title: '',
-    description: ''
+    emphasis: true
   }
 }

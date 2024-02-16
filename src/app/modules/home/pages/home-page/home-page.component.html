@@ -1,33 +1,16 @@
-<app-menu-bar></app-menu-bar>
 <app-title title="blog"></app-title>
 <div class="articles-container">
   <div class="articles-main">
     <app-big-card 
-      [card]="{
-        urlImg: 'https://uploads.jovemnerd.com.br/wp-content/uploads/2024/02/bilheteria_brasileira_todos_menos_voce__15luw20i-760x428.jpg', 
-        title: 'Todos Menos Você domina a bilheteria brasileira pela segunda semana seguida', 
-        description: 'Tem pra todo mundo: Top 3 do fim de semana ainda conta com sequência de Nosso Lar e Pobres Criaturas'
-      }"
+      [card]="emphasisCard"
     ></app-big-card>
   </div>
-  <div class="articles-others">
-    <app-small-card
-      [card]="{
-        urlImg: 'https://uploads.jovemnerd.com.br/wp-content/uploads/2024/02/miles_morales_live_action_vai_demorar__b53m01vuf-760x428.jpg',
-        title: 'Filme live-action do Miles Morales deve vir, mas vai demorar'
-      }"  
-    ></app-small-card>
-    <app-small-card
-      [card]="{
-        urlImg: 'https://uploads.jovemnerd.com.br/wp-content/uploads/2024/02/miles_morales_live_action_vai_demorar__b53m01vuf-760x428.jpg',
-        title: 'Filme live-action do Miles Morales deve vir, mas vai demorar'
-      }"  
-    ></app-small-card>
-    <app-small-card
-      [card]="{
-        urlImg: 'https://uploads.jovemnerd.com.br/wp-content/uploads/2024/02/miles_morales_live_action_vai_demorar__b53m01vuf-760x428.jpg',
-        title: 'Filme live-action do Miles Morales deve vir, mas vai demorar'
-      }"  
-    ></app-small-card>
-  </div>
+  <ul class="articles-others">
+    <li *ngFor="let card of cards; trackByFn">
+      <app-small-card
+        [card]="card"  
+      ></app-small-card>
+    </li>
+   
+  </ul>
 </div>

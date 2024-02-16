@@ -4,6 +4,8 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 import { SharedModule } from '../../shared/shared.module';
 import { ContentComponent } from './pages/content/content.component';
 import { CoreModule } from '../../core/core.module';
+import { RouterModule } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [ 
@@ -17,7 +19,9 @@ import { CoreModule } from '../../core/core.module';
   imports: [
     CommonModule,
     SharedModule,
-    CoreModule
+    CoreModule,
+    RouterModule,
+    HttpClientModule
   ]
 })
 export class HomeModule { }

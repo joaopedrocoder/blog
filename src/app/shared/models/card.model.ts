@@ -1,5 +1,7 @@
 export type Card = {
-  urlImg: string
+  id: number
+  imgUrl: string
   title: string
   description?: string
+  emphasis: boolean
 }
