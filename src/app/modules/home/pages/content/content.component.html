@@ -1,12 +1,12 @@
 <div class="content-container">
+  <a [routerLink]="['']" routerLinkActive="router-link-active" ><< Voltar</a>
   <div class="content-cover">
-    <img src="https://uploads.jovemnerd.com.br/wp-content/uploads/2024/02/bilheteria_brasileira_todos_menos_voce__15luw20i-760x428.jpg" alt="">
+    <img [src]="article.imgUrl" alt="">
   </div>
   <div class="content-title">
-    <h1>MINHA NOTICIA</h1>
-    <hr>
+    <h1>{{article.title}}</h1>
   </div>
-  <div class="content-description">
-    <p>Olá mundo!</p>
+  <div class="content-news">
+    <p>{{article.news}}</p>
   </div>
 </div>

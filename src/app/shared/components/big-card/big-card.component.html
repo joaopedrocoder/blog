@@ -1,16 +1,16 @@
 <div class="big-card-container">
   <div  class="img-container">
-    <a href="#">
-      <img [src]="card.urlImg" alt="">
+    <a [routerLink]="['content', card.id]">
+      <img [src]="card.imgUrl" alt="">
     </a>
   </div>
   <div class="title-container">
-    <a href="#">
+    <a [routerLink]="['content', card.id]">
       <h1>{{card.title}}</h1>
     </a>
   </div>
   <div class="description-container">
-    <a href="#">
+    <a [routerLink]="['content', card.id]">
       <p>{{card.description}}</p>
     </a>
   </div>

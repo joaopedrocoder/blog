@@ -1,0 +1,58 @@
+{
+  "cards": [
+    { 
+      "id": 1,
+      "title": "Mark Zuckerberg testou o Apple Vision Pro — e não gostou",
+      "imgUrl": "https://uploads.jovemnerd.com.br/wp-content/uploads/2024/02/mark_zuckerberg_apple_vision_pro_impressoes__0411079-760x428.jpg",
+      "description": "CEO da Meta ainda cutucou: “Sei que os fanboys ficam frustrados sempre que alguém ousa criticar a Apple”",
+      "emphasis": true
+    },
+    { 
+      "id": 2,
+      "title": "Funcionários da Ubisoft na França entram em greve por salários melhores",
+      "imgUrl": "https://uploads.jovemnerd.com.br/wp-content/uploads/2024/02/ubisoft_greve_na_franca__gh01jxt8-760x428.jpg",
+      "description": "Sindicato se decepcionou com reajuste abaixo da inflação, apesar de boa fase da empresa",
+      "emphasis": false
+    },
+    { 
+      "id": 3,
+      "title": "X-Men ’97 ganha trailer nostálgico e data de estreia no Disney+",
+      "imgUrl": "https://uploads.jovemnerd.com.br/wp-content/uploads/2024/02/photo_2024_02_15_11_03_42__0421o3-760x428.jpg",
+      "description": "Icônica animação noventista retorna com episódios inéditos e visual repaginado em março",
+      "emphasis": false
+    },
+    { 
+      "id": 4,
+      "title": "Penelope confronta Colin em cena tensa da 3ª temporada de Bridgerton",
+      "imgUrl": "https://uploads.jovemnerd.com.br/wp-content/uploads/2024/02/bridgerton_penelope_1__ct645u-760x428.jpg",
+      "description": "Netflix também divulgou imagens inéditas e títulos dos próximos episódios da série",
+      "emphasis": false
+    }
+  ],
+  "articles": [
+    { 
+      "id": 1,
+      "title": "Mark Zuckerberg testou o Apple Vision Pro — e não gostou",
+      "imgUrl": "https://uploads.jovemnerd.com.br/wp-content/uploads/2024/02/mark_zuckerberg_apple_vision_pro_impressoes__0411079-760x428.jpg",
+      "news": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et luctus libero, eu volutpat eros. Suspendisse ullamcorper ex ut quam iaculis laoreet. Pellentesque placerat mi sit amet leo vestibulum sodales. In eget eros vel purus eleifend hendrerit ut ut tellus. Proin in dui tortor. Donec ut bibendum ex. Phasellus non erat mattis, rhoncus urna vel, suscipit lacus. Cras posuere rhoncus orci vel facilisis. Vivamus a ex pretium ex placerat condimentum. In faucibus nisl sit amet elementum dapibus. Fusce vitae facilisis dui. Donec metus lacus, fringilla vitae faucibus sed, porta ac est. Vestibulum eu libero eu lorem molestie convallis. Duis facilisis nulla et magna placerat pulvinar tempor at odio. Nunc felis erat, fermentum sed sapien et, tempus eleifend turpis. Duis nunc ante, tincidunt et ante eu, tristique euismod enim"  
+    },
+    { 
+      "id": 2,
+      "title": "Funcionários da Ubisoft na França entram em greve por salários melhores",
+      "imgUrl": "https://uploads.jovemnerd.com.br/wp-content/uploads/2024/02/ubisoft_greve_na_franca__gh01jxt8-760x428.jpg",
+      "news": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et luctus libero, eu volutpat eros. Suspendisse ullamcorper ex ut quam iaculis laoreet. Pellentesque placerat mi sit amet leo vestibulum sodales. In eget eros vel purus eleifend hendrerit ut ut tellus. Proin in dui tortor. Donec ut bibendum ex. Phasellus non erat mattis, rhoncus urna vel, suscipit lacus. Cras posuere rhoncus orci vel facilisis. Vivamus a ex pretium ex placerat condimentum. In faucibus nisl sit amet elementum dapibus. Fusce vitae facilisis dui. Donec metus lacus, fringilla vitae faucibus sed, porta ac est. Vestibulum eu libero eu lorem molestie convallis. Duis facilisis nulla et magna placerat pulvinar tempor at odio. Nunc felis erat, fermentum sed sapien et, tempus eleifend turpis. Duis nunc ante, tincidunt et ante eu, tristique euismod enim"    
+    },
+    { 
+      "id": 3,
+      "title": "X-Men ’97 ganha trailer nostálgico e data de estreia no Disney+",
+      "imgUrl": "https://uploads.jovemnerd.com.br/wp-content/uploads/2024/02/photo_2024_02_15_11_03_42__0421o3-760x428.jpg",
+      "news": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et luctus libero, eu volutpat eros. Suspendisse ullamcorper ex ut quam iaculis laoreet. Pellentesque placerat mi sit amet leo vestibulum sodales. In eget eros vel purus eleifend hendrerit ut ut tellus. Proin in dui tortor. Donec ut bibendum ex. Phasellus non erat mattis, rhoncus urna vel, suscipit lacus. Cras posuere rhoncus orci vel facilisis. Vivamus a ex pretium ex placerat condimentum. In faucibus nisl sit amet elementum dapibus. Fusce vitae facilisis dui. Donec metus lacus, fringilla vitae faucibus sed, porta ac est. Vestibulum eu libero eu lorem molestie convallis. Duis facilisis nulla et magna placerat pulvinar tempor at odio. Nunc felis erat, fermentum sed sapien et, tempus eleifend turpis. Duis nunc ante, tincidunt et ante eu, tristique euismod enim"  
+    },
+    { 
+      "id": 4,
+      "title": "Penelope confronta Colin em cena tensa da 3ª temporada de Bridgerton",
+      "imgUrl": "https://uploads.jovemnerd.com.br/wp-content/uploads/2024/02/bridgerton_penelope_1__ct645u-760x428.jpg",
+      "news": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et luctus libero, eu volutpat eros. Suspendisse ullamcorper ex ut quam iaculis laoreet. Pellentesque placerat mi sit amet leo vestibulum sodales. In eget eros vel purus eleifend hendrerit ut ut tellus. Proin in dui tortor. Donec ut bibendum ex. Phasellus non erat mattis, rhoncus urna vel, suscipit lacus. Cras posuere rhoncus orci vel facilisis. Vivamus a ex pretium ex placerat condimentum. In faucibus nisl sit amet elementum dapibus. Fusce vitae facilisis dui. Donec metus lacus, fringilla vitae faucibus sed, porta ac est. Vestibulum eu libero eu lorem molestie convallis. Duis facilisis nulla et magna placerat pulvinar tempor at odio. Nunc felis erat, fermentum sed sapien et, tempus eleifend turpis. Duis nunc ante, tincidunt et ante eu, tristique euismod enim"  
+    }
+  ]
+}
